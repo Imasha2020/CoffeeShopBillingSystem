@@ -17,7 +17,7 @@ namespace CoffeeShopBilling
 
         public virtual double GetCost()
         {
-            return coffee.GetCost();
+            return coffee.GetCost()*1.1;
         }
 
         public virtual string GetDescription() 
