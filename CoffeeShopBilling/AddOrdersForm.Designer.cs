@@ -57,6 +57,7 @@
             this.addOrderBtn2.TabIndex = 0;
             this.addOrderBtn2.Text = "ADD ORDER";
             this.addOrderBtn2.UseVisualStyleBackColor = true;
+            this.addOrderBtn2.Click += new System.EventHandler(this.addOrderBtn2_Click);
             // 
             // backHomeBtn1
             // 

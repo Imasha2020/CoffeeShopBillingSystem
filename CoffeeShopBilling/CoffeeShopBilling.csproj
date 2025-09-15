@@ -63,6 +63,8 @@
     </Compile>
     <Compile Include="ICoffee.cs" />
     <Compile Include="MilkDecorator.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="OrderList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sugar.cs" />

@@ -28,5 +28,10 @@ namespace CoffeeShopBilling
         {
 
         }
+
+        private void addOrderBtn2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
