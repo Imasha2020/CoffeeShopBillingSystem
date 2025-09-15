@@ -16,5 +16,24 @@ namespace CoffeeShopBilling
         {
             InitializeComponent();
         }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddOrdersBtn1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AddOrdersForm addOrder = new AddOrdersForm();
+            addOrder.Show();
+        }
+
+        private void viewOrdersBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ViewOrders viewOrders = new ViewOrders();
+            viewOrders.Show();
+        }
     }
 }
