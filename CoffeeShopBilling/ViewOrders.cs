@@ -15,6 +15,9 @@ namespace CoffeeShopBilling
         public ViewOrders()
         {
             InitializeComponent();
+            var orders = OrderList.getOrders();
+            dataGridView1.DataSource = null;
+            dataGridView1.DataSource = orders;
         }
 
         private void backHomeBtn2_Click(object sender, EventArgs e)
@@ -22,6 +25,11 @@ namespace CoffeeShopBilling
             this.Hide();
             Home home = new Home();
             home.Show();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
